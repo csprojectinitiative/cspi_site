@@ -1,0 +1,273 @@
+#content {
+    position: absolute;
+    width: 100vw;
+    height: min(100vw, 100vh);
+    margin: auto;
+    left: 0px;
+    top: 0px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0 , 1);
+    background-color: rgba(0, 0, 0 , 0);
+}
+
+#logo {
+    
+    display: block;
+    position: relative;
+    left: 0;
+    top: 0;
+    
+}
+
+#logo img {
+    
+    padding: min(2.5vh, 2.5vw);
+    height: min(100px, max(10vw, 10vh));
+}
+
+.container {
+    color: black;
+}
+
+.coresection {
+    
+    display: block;
+    text-align: center;
+    min-height: 100vh;
+    
+}
+
+#about-us-section {
+    background-color: rgba(255, 255, 255 , 0.75);
+    color: rgba(0, 0, 0 , 0.75);
+    border-color: rgba(0, 0, 0 , 0.75);
+}
+
+.darken-hr {
+    border-color: rgba(0, 0, 0 , 0.75);
+}
+
+#register-section {
+    background-color: rgba(0, 0, 0 , 0.5);
+    color: rgba(255, 255, 255 , 1);
+}
+
+.container-form {
+    text-align: left;
+    color: white;
+}
+
+.grid-container-divider {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    padding-left: 42.5vw;
+    padding-right: 42.5vw;
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+}
+
+#title {
+    
+    padding: 5vh 5vw;
+    font-size: 6vw;
+    font-weight: 900;
+    
+}
+
+#motto {
+    
+    padding: 2.5vh 20vw;
+    font-size: 2.5vw;
+    font-weight: 400;
+}
+
+#subheader {
+    
+    padding: 5vh 5vw;
+    font-size: 7vw;
+    font-weight: 700;
+    
+}
+
+
+#info {
+    
+    padding: 2.5vh 2.5vw;
+    font-size: 2.5vw;
+    font-weight: 250;
+    
+}
+
+.bio-content {
+    padding: 0vh 2.5vw 0vh 2.5vw;
+    font-size: 1.5vw;
+}
+
+.bio-image {
+    border-radius: 50%;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+}
+
+.bio-image-team {
+    width: 25vw;
+}
+
+.bio-image-advisor {
+    width: 15vw;
+}
+
+.grid-container-our-team {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    padding-left: 2.5vwvw;
+    padding-right: 2.5vw;
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+}
+
+.grid-item-calvin-hulse {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.grid-item-lucas-kirshenbaum {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.sub-sub-header {
+    padding: 5vh 5vw;
+    font-size: 3.5vw;
+    font-weight: 450;
+}
+
+.grid-container-advisory-board {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    padding-left: 5vwvw;
+    padding-right: 5vw;
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+}
+
+.grid-item-adv1 {
+    grid-column-start: 0;
+    grid-column-end: 1;
+}
+
+.grid-item-adv2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.grid-item-adv3 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.grid-item-adv4 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.grid-child {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+#landingPageOptions {
+    
+    position: relative;
+    top: 25vh;
+    
+}
+
+.grid-container-landingPageOptions {
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+}
+
+.gridItemAboutUs {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin: auto;
+}
+
+.gridItemRegister {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: auto;
+}
+
+.gridItemOurTeam {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    margin: auto;
+}
+
+.gridItemContactUs {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    margin: auto;
+}
+
+.landingPageButton {
+    
+    text-decoration: none;
+    border-style: solid;
+    border-color: black;
+    border-width: .25vw;
+    font-family: inherit;
+    color: black;
+    font-size: 1.75vw;
+
+    line-height: 2;
+    font-weight: 3;
+    
+}
+
+.informationContent {
+    padding: 0vh 10vw 0vh 10vw;
+}
+
+.landingPageButton:hover {
+    
+    animation: colorize 0.5s cubic-bezier(0, 0, .78, .36) 1;
+    background-color: rgba(0,0,0,0.85);
+    color: rgba(255,255,255,1.0);
+}
+
+.dividesections {
+    width=50vw;
+}
+
+@keyframes colorize {
+    0% {
+        -webkit-background-color: rgba(0, 0, 0, 0);
+        background-color: rgba(0, 0, 0, 0);
+    100% {
+        -webkit-background-color: rgba(0, 0, 0, 1);
+        background-color: rgba(0, 0, 0, 1);
+    }
+}
+    
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) {}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) {}
+
